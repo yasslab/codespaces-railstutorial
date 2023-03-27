@@ -10,7 +10,7 @@
   //},
   "waitFor": "onCreateCommand",
   "updateContentCommand": "bundle install",
-  "postCreateCommand": "mv .bashrc .git-prompt.sh /home/vscode/",
+  "postCreateCommand": "cp .bashrc .git-prompt.sh /home/vscode/",
   "postAttachCommand": {
     "server": "rails server"
   },
