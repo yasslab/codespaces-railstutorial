@@ -7,9 +7,12 @@
   // https://hub.docker.com/_/microsoft-devcontainers-universal
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   //"image": "mcr.microsoft.com/devcontainers/ruby:3.2",
+
+  // Enable learners to choose an affordable spec, starting at minimum one.
   //"hostRequirements": {
   //  "cpus": 2
   //},
+
   "waitFor": "onCreateCommand",
   "onCreateCommand": "",
   "updateContentCommand": "bundle install",
@@ -25,17 +28,8 @@
     },
     "vscode": {
       "extensions": [
-        "rebornix.Ruby",
-        "redhat.vscode-yaml",
-	"castwide.solargraph",
-        "VisualStudioExptTeam.vscodeintellicode",
-        "esbenp.prettier-vscode"
+        "rebornix.Ruby"
       ],
-      "settings": {
-	"ruby.useBundler": true,
-	"ruby.useLanguageServer": true,
-	"solargraph.useBundler": true
-      }
     }
   },
   "portsAttributes": {
