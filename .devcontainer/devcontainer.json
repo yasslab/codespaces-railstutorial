@@ -13,7 +13,9 @@
 
   // Enable learners to choose an affordable spec, starting at minimum one.
   //"hostRequirements": {
-  //  "cpus": 2
+  //  "cpus":    2,
+  //  "memory":  "4gb",
+  //  "storage": "32gb"
   //},
 
   "waitFor": "onCreateCommand",
