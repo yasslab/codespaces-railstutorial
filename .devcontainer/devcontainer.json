@@ -3,8 +3,10 @@
 // Config options: https://github.com/microsoft/vscode-dev-containers/tree/main/containers/ruby
 {
   "name": "codespaces-railstutorial",
-  //"image": "mcr.microsoft.com/devcontainers/universal:2",
-  "image": "mcr.microsoft.com/devcontainers/ruby:3.2",
+  // Universal is well-customized image for Codespaces:
+  // https://hub.docker.com/_/microsoft-devcontainers-universal
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  //"image": "mcr.microsoft.com/devcontainers/ruby:3.2",
   //"hostRequirements": {
   //  "cpus": 2
   //},
