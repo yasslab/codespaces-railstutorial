@@ -25,6 +25,7 @@
       "extensions": [
         "rebornix.Ruby",
         "redhat.vscode-yaml",
+	"castwide.solargraph",
         "VisualStudioExptTeam.vscodeintellicode",
         "esbenp.prettier-vscode"
       ],
