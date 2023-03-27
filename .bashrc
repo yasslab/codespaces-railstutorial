@@ -20,6 +20,13 @@ shopt -s histappend
 # Set default editor for git
 git config --global core.editor /usr/bin/vi
 
+# Source for Git PS1 function
+#source ~/.git-prompt.sh
+git_type=$(type -t __git_ps1)
+if [ -z $git_type ] && [ -e "~/.git-prompt.sh" ]; then
+    . ~/.git-prompt.sh
+fi
+
 # Turn on checkwinsize & keep more history
 shopt -s checkwinsize
 shopt -s histappend 
@@ -137,7 +144,8 @@ __bash_prompt() {
         [[ -n $(git status --porcelain=v2 2>/dev/null) ]] && echo 31 || echo 33
     }
 
-    PS1="╭─○ \[\033[\$(git_color)m\]\$(git_branch)\[\033[00m\]\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1 " (%s)")
+    # PS1="╭─○ \[\033[\$(git_color)m\]\$(git_branch)\[\033[00m\]\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1 " (%s)")
+    PS1="╭─○ \[\033[\$(git_color)m\]\$(gitbranch)\[\033[00m\]\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1 " (%s)")
 ╰─○ "
 
     #PS1="${userpart} ${lightblue}\w ${gitbranch}${removecolor}\$ "
