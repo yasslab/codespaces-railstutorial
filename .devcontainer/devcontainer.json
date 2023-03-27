@@ -9,8 +9,9 @@
   //  "cpus": 2
   //},
   "waitFor": "onCreateCommand",
+  "onCreateCommand": "cp .bashrc .git-prompt.sh /home/vscode/",
   "updateContentCommand": "bundle install",
-  "postCreateCommand": "cp .bashrc .git-prompt.sh /home/vscode/",
+  "postCreateCommand": "",
   "postAttachCommand": {
     "server": "rails server"
   },

@@ -29,10 +29,6 @@ GIT_PS1_SHOWDIRTYSTATE=true
 GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWUPSTREAM=auto
-#git_type=$(type -t __git_ps1)
-#if [ -z $git_type ] && [ -e "~/.git-prompt.sh" ]; then
-#    . ~/.git-prompt.sh
-#fi
 
 # Turn on checkwinsize & keep more history
 shopt -s checkwinsize
