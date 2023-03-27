@@ -9,7 +9,7 @@
   //  "cpus": 2
   //},
   "waitFor": "onCreateCommand",
-  "onCreateCommand": "cp .bashrc .git-prompt.sh /home/vscode/",
+  "onCreateCommand": "",
   "updateContentCommand": "bundle install",
   "postCreateCommand": "",
   "postAttachCommand": {
@@ -29,8 +29,8 @@
         "esbenp.prettier-vscode"
       ],
       "settings": {
-        "ruby.useLanguageServer": true,
-        "ruby.useBundler": true
+	"ruby.useBundler": true,
+	"solargraph.useBundler": true
       }
     }
   },
