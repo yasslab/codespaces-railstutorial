@@ -10,7 +10,7 @@
   //},
   "waitFor": "onCreateCommand",
   "updateContentCommand": "bundle install",
-  "postCreateCommand": "",
+  "postCreateCommand": "mv .bashrc /home/vscode/.bashrc",
   "postAttachCommand": {
     "server": "rails server"
   },
