@@ -1,8 +1,8 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "hostRequirements": {
-    "cpus": 2
-  },
+  //"hostRequirements": {
+  //  "cpus": 2
+  //},
   "waitFor": "onCreateCommand",
   "updateContentCommand": "bundle install",
   "postCreateCommand": "",
