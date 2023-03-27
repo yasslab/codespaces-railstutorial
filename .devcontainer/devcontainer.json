@@ -1,4 +1,5 @@
 {
+  "name": "codespaces-railstutorial",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   //"hostRequirements": {
   //  "cpus": 2
