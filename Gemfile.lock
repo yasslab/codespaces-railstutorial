@@ -96,6 +96,8 @@ GEM
     crass (1.0.6)
     date (3.3.3)
     debug (1.7.1)
+      irb (>= 1.5.0)
+      reline (>= 0.3.1)
     diff-lcs (1.5.0)
     e2mmap (0.1.0)
     erb_lint (0.3.1)
@@ -131,6 +133,9 @@ GEM
     importmap-rails (1.1.5)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
+    io-console (0.6.0)
+    irb (1.6.3)
+      reline (>= 0.3.0)
     jaro_winkler (1.5.4)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
@@ -231,6 +236,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.7.0)
+    reline (0.3.2)
+      io-console (~> 0.5)
     reverse_markdown (2.1.1)
       nokogiri
     rexml (3.2.5)
@@ -342,8 +349,5 @@ DEPENDENCIES
   turbo-rails (= 1.4.0)
   webdrivers (= 5.2.0)
 
-RUBY VERSION
-   ruby 3.2.1p31
-
 BUNDLED WITH
-   2.4.8
+   2.4.10
