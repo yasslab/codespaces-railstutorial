@@ -33,6 +33,7 @@
       ],
       "settings": {
 	"ruby.useBundler": true,
+	"ruby.useLanguageServer": true,
 	"solargraph.useBundler": true
       }
     }
