@@ -7,21 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+.codespaces {
+  text-align: center;
+}
+.codespaces code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
+.codespaces-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-.App-header {
+.codespaces-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -31,15 +28,13 @@ code {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
+.codespaces-link {
   color: #61dafb;
 }
 
 .heart {
   color: #ff0000;
 }
-
 .small {
   font-size: 0.75rem;
 }
