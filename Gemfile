@@ -16,15 +16,8 @@ group :development, :test do
   gem "debug",   "1.7.1", platforms: %i[ mri mingw x64_mingw ]
 end
 
-# Windows ではタイムゾーン情報用の tzinfo-data gem を含める必要があります
-#gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
-
 group :development do
-  gem "solargraph",         "0.48.0"
-  gem "erb_lint",           "0.3.1"
-
-  # Use this if you like live-reload
-  #gem "hotwire-livereload", "1.2.3"
+  gem "solargraph", "0.48.0"
 end
 
 group :test do
@@ -41,3 +34,6 @@ end
 group :production do
   gem "pg", "1.4.6"
 end
+
+# Windows ではタイムゾーン情報用の tzinfo-data gem を含める必要があります
+#gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
