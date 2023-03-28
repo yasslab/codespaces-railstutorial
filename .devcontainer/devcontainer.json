@@ -22,8 +22,9 @@
   //},
 
   "waitFor": "onCreateCommand",
-  "onCreateCommand": "",
-  //"onCreateCommand": "gem install solargraph",
+  "onCreateCommand": "gem install solargraph",
+  //"onCreateCommand": "",
+  //# => Solargraph gem not found. Run `gem install solargraph` or update your Gemfile.
   "updateContentCommand": "bundle install",
   "postCreateCommand": "",
   "postAttachCommand": {
