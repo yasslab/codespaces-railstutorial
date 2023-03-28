@@ -53,8 +53,13 @@ RuboCop によるコード整形、`if..end` 文の自動補完などの拡張�
 
 <br>
 
-## 制作
+## 制作・ライセンス
 
 Copyright &copy; YassLab Inc.<br>
 Railsチュートリアル運営チーム<br>
 [https://railstutorial.jp/](https://railstutorial.jp/)
+
+<small>
+  ソースコードのライセンスは [LICENSE](https://github.com/yasslab/codespaces-railstutorial/blob/main/LICENSE) をご確認ください。<br>
+  ロゴ画像やデモ動画などは各制作者の著作物となります。
+</small>
