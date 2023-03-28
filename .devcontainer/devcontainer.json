@@ -38,6 +38,7 @@
     },
     "vscode": {
       "extensions": [
+	"GitHub.codespaces",
         "rebornix.Ruby",        // https://github.com/rubyide/vscode-ruby
 	"castwide.solargraph"   // https://github.com/castwide/vscode-solargraph
       ],
