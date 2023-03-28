@@ -39,10 +39,10 @@
 	"castwide.solargraph"
       ],
       "settings": {
-	"solargraph.useBundler": false,
-	"solargraph.diagnostics": true,
-	"solargraph.formatting":  true,
-	"solargraph.autoformat":  true,
+	"solargraph.useBundler":  false,
+	"solargraph.diagnostics": false,
+	"solargraph.formatting":  false,
+	"solargraph.autoformat":  false,
 	"solargraph.completion":  true,
 	"solargraph.hover":       true,
 	"solargraph.references":  true,
