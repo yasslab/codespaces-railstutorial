@@ -7,10 +7,11 @@
   // Universal is well-customized image for Codespaces:
   // https://hub.docker.com/_/microsoft-devcontainers-universal
   //"image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/universal:2.2.9",
 
   // Use Ruby image if you want to pin Ruby version like '3.2'
   // https://github.com/devcontainers/images/tree/main/src/ruby
-  "image": "mcr.microsoft.com/devcontainers/ruby:3.2",
+  //"image": "mcr.microsoft.com/devcontainers/ruby:3.2",
   //"workspaceFolder": "/railstutorial", => Container build failed
 
   // Enable learners to choose an affordable spec, starting at minimum one.
