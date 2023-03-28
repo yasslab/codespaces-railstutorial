@@ -20,11 +20,13 @@
   - Ruby コードの定義元が調べられるコードジャンプ機能や、Ruby の型情報を使ったコード補完、公式ドキュメントの表示機能などが使えます（以下は[公式のデモ動画](https://github.com/castwide/vscode-solargraph#readme)です）
   - ![DEMO](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/demo_solargraph.gif?raw=true)
 
-RuboCop によるコード整形、`if..end` 文の自動補完などの拡張機能はお好みで追加してください。本テンプレートでは必要最低限の拡張機能に留めています。
+RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機能はお好みで追加してください。本テンプレートでは必要最低限の拡張機能に留めています。
 
 - [:octocat: misogi/vscode-ruby-rubocop](https://github.com/misogi/vscode-ruby-rubocop)
-- [:octocat: kaiwood/vscode-endwise](https://github.com/kaiwood/vscode-endwise)
-- [:octocat: mosapride/vscode-zenkaku](https://github.com/mosapride/vscode-zenkaku)
+- [:octocat: ruby/vscode-rdbg](https://github.com/ruby/vscode-rdbg)
+- [:octocat: ruby-debug/ruby-debug-ide](https://github.com/ruby-debug/ruby-debug-ide)
+- [:octocat: Shopify/vscode-shopify-ruby](https://github.com/Shopify/vscode-shopify-ruby)
+- [:octocat: primer/github-vscode-theme](https://github.com/primer/github-vscode-theme)
 
 <br>
 
