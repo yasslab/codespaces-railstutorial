@@ -46,9 +46,9 @@
 	//"ruby.useLanguageServer": true ,
 	//"ruby.format": "rubocop",
 	//"ruby.lint": { "rubocop": true },
-	"ruby.intellisense": "rubyLocate",
+	//"ruby.intellisense": "rubyLocate",
 	"editor.tabSize": 2,
-	"editor.renderWhitespace":true,
+	"editor.renderWhitespace": false,
 	"files.associations": { "*.erb": "erb" },
 	"emmet.includeLanguages": { "erb": "html" },
 	
