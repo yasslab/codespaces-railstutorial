@@ -22,7 +22,8 @@
   //},
 
   "waitFor": "onCreateCommand",
-  "onCreateCommand": "gem install solargraph",
+  "onCreateCommand": "",
+  //"onCreateCommand": "gem install solargraph",
   "updateContentCommand": "bundle install",
   "postCreateCommand": "",
   "postAttachCommand": {
