@@ -3,14 +3,14 @@
 // Config options: https://github.com/microsoft/vscode-dev-containers/tree/main/containers/ruby
 {
   "name": "codespaces-railstutorial",
-  "dockerFile": "Dockerfile",
+
   // Universal is well-customized image for Codespaces:
   // https://hub.docker.com/_/microsoft-devcontainers-universal
   //"image": "mcr.microsoft.com/devcontainers/universal:2",
 
   // Use Ruby image if you want to pin Ruby version like '3.2'
   // https://github.com/devcontainers/images/tree/main/src/ruby
-  //"image": "mcr.microsoft.com/devcontainers/ruby:3.2",
+  "image": "mcr.microsoft.com/devcontainers/ruby:3.2",
 
   // Enable learners to choose an affordable spec, starting at minimum one.
   //"hostRequirements": {
@@ -20,7 +20,7 @@
   //},
 
   "waitFor": "onCreateCommand",
-  "onCreateCommand": "",
+  "onCreateCommand": "gem install solargraph",
   "updateContentCommand": "bundle install",
   "postCreateCommand": "",
   "postAttachCommand": {
@@ -38,6 +38,7 @@
 	"castwide.solargraph"
       ],
       "settings": {
+	"solargraph.useBundler": false,
 	"solargraph.diagnostics": true,
 	"solargraph.formatting":  true,
 	"solargraph.autoformat":  true,
