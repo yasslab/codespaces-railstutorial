@@ -21,7 +21,7 @@
   //},
 
   "waitFor": "onCreateCommand",
-  "onCreateCommand": "gem install solargraph",
+  "onCreateCommand": "",
   "updateContentCommand": "bundle install",
   "postCreateCommand": "",
   "postAttachCommand": {
@@ -35,20 +35,8 @@
     },
     "vscode": {
       "extensions": [
-        "rebornix.Ruby",
-	"castwide.solargraph"
-      ],
-      "settings": {
-	"solargraph.useBundler":  false,
-	"solargraph.diagnostics": false,
-	"solargraph.formatting":  false,
-	"solargraph.autoformat":  false,
-	"solargraph.completion":  true,
-	"solargraph.hover":       true,
-	"solargraph.references":  true,
-	"solargraph.symbols":     true,
-	"solargraph.rename":      true
-      }
+        "rebornix.Ruby"
+      ]
     }
   },
   "portsAttributes": {
