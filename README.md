@@ -30,7 +30,7 @@ RuboCop によるコード整形、`if..end` 文の自動補完などの拡張�
 
 ## 必要なもの
 
-- [Chrome](https://www.google.com/intl/ja/chrome/browser/) などのブラウザ（Chrome 推奨）
+- [Chrome](https://www.google.com/intl/ja/chrome/browser/) などのブラウザ（Safari などでも動きますが、Chrome だとより快適に動作します）
 - [GitHub](https://github.co.jp/) のアカウント（もしまだであれば事前に準備をお願いします）
    [![GitHub Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-0-lp.png?raw=true)](https://github.co.jp/)
 
