@@ -38,9 +38,6 @@
       "extensions": [
         "rebornix.Ruby",        // https://github.com/rubyide/vscode-ruby
 	"castwide.solargraph"   // https://github.com/castwide/vscode-solargraph
-
-	// if..end completion should be optional. It depends on preference.
-	//"kaiwood.vscode-endwise" // https://github.com/kaiwood/vscode-endwise
       ],
       "settings": {
 	"solargraph.useBundler":  false,
