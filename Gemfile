@@ -22,7 +22,9 @@ end
 group :development do
   gem "solargraph",         "0.48.0"
   gem "erb_lint",           "0.3.1"
-  gem "hotwire-livereload", "1.2.3"
+
+  # Use this if you like live-reload
+  #gem "hotwire-livereload", "1.2.3"
 end
 
 group :test do
