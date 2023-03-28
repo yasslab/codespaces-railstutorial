@@ -24,11 +24,15 @@
 
 RuboCop などの Linter 系はお好みで追加してください。デフォルトでは必要最低限の拡張機能に留めています。
 
+<br>
+
 ## 必要なもの
 
 - [Chrome](https://www.google.com/intl/ja/chrome/browser/) などのブラウザ（Chrome 推奨）
 - [GitHub](https://github.co.jp/) のアカウント（もしまだであれば事前に作成してください）
    [![GitHub Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-0-lp.png?raw=true)](https://github.co.jp/)
+
+<br>
 
 ## 使い方
 
@@ -45,7 +49,7 @@ RuboCop などの Linter 系はお好みで追加してください。デフォ�
    ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-5-goal.png?raw=true)
 1.  `rails new` や `Gemfile` の更新、`rails server` が立ち上がるところまで（環境構築が終わるところまで）が完了している状態になるので、第1章・第2章・第3章の **コードを書くところから始められます!** 📝✨
 
-
+<br>
 
 ## 制作
 
