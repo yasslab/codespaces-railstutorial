@@ -44,14 +44,14 @@
       "settings": {
 	// Use RuboCop for manual formatting
 	"ruby.useLanguageServer": true ,
-	"ruby.intellisense":"rubyLocate",
-	"ruby.lint": { "rubocop": true },
-	"ruby.format": "rubocop",
-
+	"ruby.intellisense": "rubyLocate",
+	//"ruby.format": "rubocop",
+	//"ruby.lint": { "rubocop": true },
+	
 	// Settings for Solargraph
 	"solargraph.useBundler":  false,
 	"solargraph.diagnostics": false,
-	"solargraph.formatting":  false,
+	"solargraph.formatting":  true,
 	"solargraph.autoformat":  false,
 	"solargraph.definitions": true,
 	"solargraph.completion":  true,
