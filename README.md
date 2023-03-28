@@ -47,7 +47,7 @@ RuboCop などの Linter 系はお好みで追加してください。デフォ�
    ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-4-build.png?raw=true)
 1. Railsチュートリアルのロゴ画像が表示されたら完成です!
    ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-5-goal.png?raw=true)
-1.  `rails new` や `Gemfile` の更新、`rails server` を立ち上がるところまで（難しいとされる「環境構築」が終わるところまで）が完了している状態になるので、**第1章・第2章・第3章のコードを書くところから始められます!** 📝✨
+1.  `rails new` や `Gemfile` の更新、`rails server` を立ち上がるところまで（難しいとされる「環境構築」が終わるところまで）が完了している状態なので、**第1章・第2章・第3章のコードを書くところから始められます!** 📝✨
 
 <br>
 
