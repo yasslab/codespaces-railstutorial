@@ -60,6 +60,6 @@ Railsチュートリアル運営チーム<br>
 [https://railstutorial.jp/](https://railstutorial.jp/)
 
 <small>
-  ソースコードのライセンスは [LICENSE](https://github.com/yasslab/codespaces-railstutorial/blob/main/LICENSE) をご確認ください。<br>
+  ソースコードのライセンスは <a href='https://github.com/yasslab/codespaces-railstutorial/blob/main/LICENSE'>LICENSE</a> をご確認ください。<br>
   ロゴ画像やデモ動画などは各制作者の著作物となります。
 </small>
