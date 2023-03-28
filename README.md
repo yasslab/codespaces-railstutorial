@@ -1,19 +1,18 @@
 # Codespaces ♥️ Railsチュートリアル
 
-本リポジトリは[Railsチュートリアル](https://railstutorial.jp/)の [GitHub Codespaces](https://github.co.jp/) 用テンプレートです。
-
-![Codespaces のサンプル画面](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces.png?raw=true)
-
-本リポジトリは[2022年11月にリリース](https://www.publickey1.jp/blog/22/github_codespaces60jetbrainsjupyterlabide.html)された以下のGitHub公式Railsテンプレートを、Railsチュートリアル用にカスタマイズしたものです。
+本リポジトリは[Railsチュートリアル](https://railstutorial.jp/)の [GitHub Codespaces](https://github.co.jp/) 用テンプレートです。[2022年11月にリリース](https://www.publickey1.jp/blog/22/github_codespaces60jetbrainsjupyterlabide.html)されたGitHub公式のRailsテンプレートを、[Railsチュートリアル](https://railstutorial.jp)用にカスタマイズしたものです。
 
 - [:octocat: github/codespaces-rails](https://github.com/github/codespaces-rails)
 - [:newspaper: GitHub Codespacesが全ユーザーに無料提供へ、毎月60時間分 - Publickey](https://www.publickey1.jp/blog/22/github_codespaces60jetbrainsjupyterlabide.html)
 
-Railsチュートリアル用にカスタマイズされた本テンプレートでは、第1章・第2章・第3章の冒頭にある `rails new` および `Gemfile` の更新までが完了しており、`rails server` が立ち上がる状態から学習を始められます。
+本テンプレートは、Railsチュートリアルの第1章・第2章・第3章の冒頭にある `rails new` および `Gemfile` の更新まで（難しいとされる「環境構築」まで）が完了している状態となっており、**rails server が立ち上げられる状態から学習をスタートできます** 📝✨
+
+![Codespaces のサンプル画面](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces.png?raw=true)
 
 <br>
 
-また本テンプレートには以下の拡張機能がデフォルトで入っています。より良い学習体験に繋がれば幸いです。
+## 拡張機能について
+より良い学習体験に繋げるため、本テンプレートには以下の VS Code 拡張機能がデフォルトで入っています。
 
 - [:octocat: rubyide/vscode-ruby](https://github.com/rubyide/vscode-ruby):
   - Ruby コードのハイライトや折り畳みなどが可能になります
