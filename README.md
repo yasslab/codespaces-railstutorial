@@ -38,7 +38,7 @@ RuboCop などの Linter 系はお好みで追加してください。デフォ�
 1. `Select a repository` をクリックし、`yasslab/codespaces-railstutorial` と入力します（他の項目は自動で補完されます）
    ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-2-repo.png?raw=true)
 1. 以下の画面になったら、右下の `Create codespace` ボタンを押します
-   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-3-build.png?raw=true)
+   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-3-new.png?raw=true)
 1. 環境構築が完了するのを待ちます（１〜２分ほど掛かります）
    ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-4-build.png?raw=true)
 1. Railsチュートリアルのロゴ画像が表示されたら完成です!
