@@ -11,7 +11,7 @@
 
 またRailsチュートリアル用にカスタマイズされた本テンプレートでは、第1章・第2章・第3章の冒頭にある `rails new` および `Gemfile` の更新までが完了しており、`rails server` が立ち上がる状態から学習を始められます。
 
-なお以下の拡張機能はデフォルトで入っています。より良い開発体験に繋がれば幸いです。
+なお以下の拡張機能はデフォルトで入っています。より良い学習体験に繋がれば幸いです。
 
 - [:octocat: rubyide/vscode-ruby](https://github.com/rubyide/vscode-ruby):
   - Ruby コードのハイライトや折り畳みなどが可能になります
@@ -19,7 +19,7 @@
   - Ruby コードの定義元が調べられるコードジャンプ機能や、Ruby の型情報を使ったコード補完、公式ドキュメントの表示機能などが使えます（以下は[公式のデモ動画](https://github.com/castwide/vscode-solargraph#readme)です）
   - ![DEMO](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/demo_solargraph.gif?raw=true)
 
-RuboCop によるコード整形、`if..end` 文の自動補完などの拡張機能はお好みで追加してください。デフォルトでは必要最低限の拡張機能に留めています。
+RuboCop によるコード整形、`if..end` 文の自動補完などの拡張機能はお好みで追加してください。本テンプレートでは必要最低限の拡張機能に留めています。
 
 - [:octocat: misogi/vscode-ruby-rubocop](https://github.com/misogi/vscode-ruby-rubocop)
 - [:octocat: kaiwood/vscode-endwise](https://github.com/kaiwood/vscode-endwise)
