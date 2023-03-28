@@ -55,7 +55,7 @@ RuboCop によるコード整形、`if..end` 文の自動補完などの拡張�
 
 ## 制作・ライセンス
 
-Copyright &copy; YassLab Inc.<br>
+Copyright &copy; [YassLab](http://yasslab.jp/) Inc.<br>
 Railsチュートリアル運営チーム<br>
 [https://railstutorial.jp/](https://railstutorial.jp/)
 
