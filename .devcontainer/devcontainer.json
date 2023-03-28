@@ -42,6 +42,13 @@
 	"castwide.solargraph"   // https://github.com/castwide/vscode-solargraph
       ],
       "settings": {
+	// Use RuboCop for manual formatting
+	"ruby.useLanguageServer": true ,
+	"ruby.intellisense":"rubyLocate",
+	"ruby.lint": { "rubocop": true },
+	"ruby.format": "rubocop",
+
+	// Settings for Solargraph
 	"solargraph.useBundler":  false,
 	"solargraph.diagnostics": false,
 	"solargraph.formatting":  false,
