@@ -9,9 +9,11 @@
 - [:octocat: github/codespaces-rails](https://github.com/github/codespaces-rails)
 - [:newspaper: GitHub Codespacesが全ユーザーに無料提供へ、毎月60時間分 - Publickey](https://www.publickey1.jp/blog/22/github_codespaces60jetbrainsjupyterlabide.html)
 
-またRailsチュートリアル用にカスタマイズされた本テンプレートでは、第1章・第2章・第3章の冒頭にある `rails new` および `Gemfile` の更新までが完了しており、`rails server` が立ち上がる状態から学習を始められます。
+Railsチュートリアル用にカスタマイズされた本テンプレートでは、第1章・第2章・第3章の冒頭にある `rails new` および `Gemfile` の更新までが完了しており、`rails server` が立ち上がる状態から学習を始められます。
 
-なお以下の拡張機能はデフォルトで入っています。より良い学習体験に繋がれば幸いです。
+<br>
+
+また本テンプレートには以下の拡張機能がデフォルトで入っています。より良い学習体験に繋がれば幸いです。
 
 - [:octocat: rubyide/vscode-ruby](https://github.com/rubyide/vscode-ruby):
   - Ruby コードのハイライトや折り畳みなどが可能になります
