@@ -40,14 +40,15 @@
       ],
       "settings": {
 	"solargraph.useBundler":  false,
-	"solargraph.diagnostics": true,
+	"solargraph.diagnostics": false,
 	"solargraph.formatting":  false,
 	"solargraph.autoformat":  false,
+	"solargraph.definitions": true,
 	"solargraph.completion":  true,
-	"solargraph.hover":       true,
 	"solargraph.references":  true,
 	"solargraph.symbols":     true,
-	"solargraph.rename":      true
+	"solargraph.rename":      true,
+	"solargraph.hover":       true
       }
     }
   },
