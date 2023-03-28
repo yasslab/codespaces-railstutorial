@@ -29,7 +29,7 @@ RuboCop などの Linter 系はお好みで追加してください。デフォ�
 ## 必要なもの
 
 - [Chrome](https://www.google.com/intl/ja/chrome/browser/) などのブラウザ（Chrome 推奨）
-- [GitHub](https://github.co.jp/) のアカウント（もしまだであれば事前に作成してください）
+- [GitHub](https://github.co.jp/) のアカウント（もしまだであれば事前に準備をお願いします）
    [![GitHub Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-0-lp.png?raw=true)](https://github.co.jp/)
 
 <br>
