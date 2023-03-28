@@ -39,7 +39,7 @@
 	"castwide.solargraph"
       ],
       "settings": {
-	"solargraph.useBundler":  false,
+	"solargraph.useBundler":  true,
 	"solargraph.diagnostics": false,
 	"solargraph.formatting":  false,
 	"solargraph.autoformat":  false,
