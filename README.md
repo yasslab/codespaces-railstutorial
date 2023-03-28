@@ -13,12 +13,12 @@
 
 なお以下の拡張機能はデフォルトで入っています。より良い開発体験に繋がれば幸いです。(公式のデモ動画より引用)
 
-- [:octocat: rebornix.Ruby](https://github.com/rubyide/vscode-ruby):
+- [:octocat: rubyide/vscode-ruby](https://github.com/rubyide/vscode-ruby):
   - Ruby コードのハイライトや折り畳みなどが可能になります
-- [:octocat: castwide.solargraph](https://github.com/castwide/vscode-solargraph):
+- [:octocat: castwide/vscode-solargraph](https://github.com/castwide/vscode-solargraph):
   - `if...end` や `do..end` などが自動的に補完されます
   - ![DEMO](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/demo_solargraph.gif?raw=true)
-- [:octocat: kaiwood.vscode-endwise](https://github.com/kaiwood/vscode-endwise):
+- [:octocat: kaiwood/vscode-endwise](https://github.com/kaiwood/vscode-endwise):
   - `if...end` や `do..end` などが自動補完されます
   - ![DEMO](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/demo_endwise.gif?raw=true)
 
