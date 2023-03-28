@@ -8,7 +8,9 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
-    <%= hotwire_livereload_tags if Rails.env.development? %>
+
+    <%  # Use this code along with Gemfile if you like livereload. %>
+    <%= #hotwire_livereload_tags if Rails.env.development? %>
   </head>
 
   <body>
