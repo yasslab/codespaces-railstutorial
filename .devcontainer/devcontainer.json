@@ -40,7 +40,7 @@
       ],
       "settings": {
 	"solargraph.useBundler":  false,
-	"solargraph.diagnostics": false,
+	"solargraph.diagnostics": true,
 	"solargraph.formatting":  false,
 	"solargraph.autoformat":  false,
 	"solargraph.completion":  true,
