@@ -16,16 +16,10 @@
 - [:octocat: rubyide/vscode-ruby](https://github.com/rubyide/vscode-ruby):
   - Ruby コードのハイライトや折り畳みなどが可能になります
 - [:octocat: castwide/vscode-solargraph](https://github.com/castwide/vscode-solargraph):
-  - Ruby コードの定義元を調べる機能（コードジャンプ）や、型情報を使ったコード補完、ドキュメントの表示機能などが使えます
-  - ![DEMO](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/demo_solargraph.gif?raw=true)
+  - Ruby コードの定義元を調べる機能（コードジャンプ）や、型情報を使ったコード補完、ドキュメントの表示機能などが使えます (以下は公式のデモ動画です)
+  ![DEMO](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/demo_solargraph.gif?raw=true)
 
-<!--
-- [:octocat: kaiwood/vscode-endwise](https://github.com/kaiwood/vscode-endwise):
-  - `if...end` や `do..end` などが自動補完されます
-  - ![DEMO](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/demo_endwise.gif?raw=true)
--->
-
-RuboCop などの Linter 系はお好みで追加してください。デフォルトでは必要最低限の拡張機能に留めています。
+RuboCop などの Linter 系 ([:octocat: misogi/vscode-ruby-rubocop](https://github.com/misogi/vscode-ruby-rubocop))、`if..end` の自動補完 ([:octocat: kaiwood/vscode-endwise](https://github.com/kaiwood/vscode-endwise)) などの拡張機能はお好みで追加してください。デフォルトでは必要最低限の拡張機能に留めています。
 
 <br>
 
