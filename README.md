@@ -34,6 +34,28 @@ RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機�
 
 - [Chrome](https://www.google.com/intl/ja/chrome/browser/) などのブラウザ（Chrome だとより快適に動作します）
 - [GitHub](https://github.co.jp/) のアカウント（もしまだであれば事前に準備をお願いします）
+  [![GitHub Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-0-lp.png?raw=true)](https://github.co.jp/)
+
+<br>
+
+## 使い方
+
+1. [Codespaces](https://github.com/codespaces) のページに行きます
+1. 画面右の [New codespace ボタン](https://github.com/codespaces/new)をクリックします
+   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-1-top.png?raw=true)
+1. `Select a repository` をクリックし、`yasslab/codespaces-railstutorial` と入力します（他の項目は自動で補完されます）
+   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-2-repo.png?raw=true)
+1. 以下の画面になったら、右下の `Create codespace` ボタンを押します
+   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-3-new.png?raw=true)
+1. 環境構築が完了するのを待ちます（１〜２分ほど掛かります）
+   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-4-build.png?raw=true)
+1. Railsチュートリアルのロゴ画像が表示されたら完成です!
+   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-5-goal.png?raw=true)
+1.  `rails new` や `Gemfile` の更新、`rails server` を立ち上がるところまで（難しいとされる「環境構築」が終わるところまで）が完了している状態なので、**第1章・第2章・第3章のコードを書くところから始められます!** 📝✨
+
+<br>
+
+## よくあるエラーと解決方法
 
 <details>
   <summary><strong>ブラウザ別のエラー解決方法を見る（2023年3月時点）</strong></summary>
@@ -60,24 +82,6 @@ RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機�
 
 </details>
 
-<br>
-
-## 使い方
-
-1. [Codespaces](https://github.com/codespaces) のページに行きます
-1. 画面右の [New codespace ボタン](https://github.com/codespaces/new)をクリックします
-   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-1-top.png?raw=true)
-1. `Select a repository` をクリックし、`yasslab/codespaces-railstutorial` と入力します（他の項目は自動で補完されます）
-   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-2-repo.png?raw=true)
-1. 以下の画面になったら、右下の `Create codespace` ボタンを押します
-   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-3-new.png?raw=true)
-1. 環境構築が完了するのを待ちます（１〜２分ほど掛かります）
-   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-4-build.png?raw=true)
-1. Railsチュートリアルのロゴ画像が表示されたら完成です!
-   ![Codespaces Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-5-goal.png?raw=true)
-1.  `rails new` や `Gemfile` の更新、`rails server` を立ち上がるところまで（難しいとされる「環境構築」が終わるところまで）が完了している状態なので、**第1章・第2章・第3章のコードを書くところから始められます!** 📝✨
-
-<br>
 
 ## 制作・ライセンス
 
