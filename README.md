@@ -36,6 +36,31 @@ RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機�
 - [GitHub](https://github.co.jp/) のアカウント（もしまだであれば事前に準備をお願いします）
    [![GitHub Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-0-lp.png?raw=true)](https://github.co.jp/)
 
+<details>
+  <summary><strong>ブラウザ別のエラー解決方法を見る（2023年3月時点）</strong></summary>
+  <h3>Google Chrome - Webビューの読み込みエラー</h3>
+  <img src='https://github.com/yasslab/codespaces-railstutorial/blob/main/public/error_chrome_webview_1.png?raw=true)' alt='Chrome のエラー例１' />
+  <p><code>Error: Could not register service workers: NotSupportedError ...</code> などが表示され、「シンプルブラウザーは開いたけど何も表示されない」という場合があります。これは必要な Cookie が許可されていない場合に起こります。以下の例を参考に、サードパーティの Cookie を許可すると解決する場合が多いです。</p>
+  <img src='https://github.com/yasslab/codespaces-railstutorial/blob/main/public/error_chrome_webview_2.png?raw=true)' alt='Chrome のエラー例２' />
+  <p>Cookie を許可しても解決しない場合は、シンプルブラウザーの右端にある「ブラウザーで開く」アイコンをクリックしてください。ブラウザの別タブで画面が表示され、こちらの画面でも現在の状態をご確認いただけます。</p>
+  <img src='https://github.com/yasslab/codespaces-railstutorial/blob/main/public/error_chrome_webview_3.png?raw=true)' alt='Chrome のエラー例３' />
+  <br><br><br>
+
+  <h3>Firefox - Webビューの読み込みエラー</h3>
+  <p>上記の Chrome と同様に、シンプルブラウザーの画面が表示されない事があります。アドレスバーにある強化型トラッキング防止機能のアイコンをクリックし、「オフ」にすることでプレビューが表示されるようになります。</p>
+  <img src='https://github.com/yasslab/codespaces-railstutorial/blob/main/public/error_firefox_webview_1.png?raw=true)' alt='Firefox のエラー例１' />
+  <p>上記の機能をオフにしても解決しない場合は、シンプルブラウザーではなく「新規ウィンドウでサイトを開く」をクリックしてください。ブラウザの別タブで画面が表示され、こちらの画面でも現在の状態をご確認いただけます。</p>
+  <img src='https://github.com/yasslab/codespaces-railstutorial/blob/main/public/error_firefox_webview_2.png?raw=true)' alt='Firefox のエラー例２' />
+  <img src='https://github.com/yasslab/codespaces-railstutorial/blob/main/public/error_firefox_webview_3.png?raw=true)' alt='Firefox のエラー例３' />
+  <br><br><br>
+
+  <h3>Safari - ✅ 問題なく動くことが多いです</h3>
+  <p>Safari では問題なくことが多いです。ただし、文字入力をしてから、Codespaces 上の画面に表示されるまでが遅い場合があります。また一部のアイコンが表示されない現象も確認できています。開発する上で問題になるわけではないですが、もし気になる場合は Google Chrome など他のブラウザをお試しください。</p>
+  <img src='https://github.com/yasslab/codespaces-railstutorial/blob/main/public/error_safari_webview_1.png?raw=true)' alt='Safari のエラー例１' />
+  <br><br><br>
+
+</details>
+
 <br>
 
 ## 使い方
