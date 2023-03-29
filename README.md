@@ -81,7 +81,7 @@ RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機�
   <img src='https://i.gyazo.com/a74db22c2faba07a44af284a08f1f21b.png' alt='Safari のエラー例１' />
 </details>
 
-<br>
+<br><br>
 
 ## 制作・ライセンス
 
