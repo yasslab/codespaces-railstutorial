@@ -56,7 +56,6 @@ RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機�
 <br>
 
 ## よくあるエラーと解決方法
-
 <details>
   <summary><strong>ブラウザ別のエラー解決方法を見る（2023年3月時点）</strong></summary>
   <h3>Google Chrome - Webビューの読み込みエラー</h3>
@@ -78,10 +77,9 @@ RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機�
   <h3>Safari - 入力の遅延・アイコンの一部非表示</h3>
   <p>Safari では問題なくことが多いです。ただし、文字入力をしてから、Codespaces 上の画面に表示されるまでが遅い場合があります。また一部のアイコンが表示されない現象も確認できています。開発する上で問題になるわけではないですが、もし気になる場合は Google Chrome など他のブラウザをお試しください。</p>
   <img src='https://github.com/yasslab/codespaces-railstutorial/blob/main/public/error_safari_webview_1.png?raw=true&cache=v1)' alt='Safari のエラー例１' />
-  <br><br><br>
-
 </details>
 
+<br>
 
 ## 制作・ライセンス
 
