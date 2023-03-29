@@ -34,7 +34,6 @@ RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機�
 
 - [Chrome](https://www.google.com/intl/ja/chrome/browser/) などのブラウザ（Chrome だとより快適に動作します）
 - [GitHub](https://github.co.jp/) のアカウント（もしまだであれば事前に準備をお願いします）
-   [![GitHub Top](https://github.com/yasslab/codespaces-railstutorial/blob/main/public/codespaces-0-lp.png?raw=true)](https://github.co.jp/)
 
 <details>
   <summary><strong>ブラウザ別のエラー解決方法を見る（2023年3月時点）</strong></summary>
