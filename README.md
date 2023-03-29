@@ -54,7 +54,7 @@ RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機�
   <img src='https://github.com/yasslab/codespaces-railstutorial/blob/main/public/error_firefox_webview_3.png?raw=true)' alt='Firefox のエラー例３' />
   <br><br><br>
 
-  <h3>Safari - ✅ 問題なく動くことが多いです</h3>
+  <h3>Safari - 入力の遅延・アイコンの一部非表示</h3>
   <p>Safari では問題なくことが多いです。ただし、文字入力をしてから、Codespaces 上の画面に表示されるまでが遅い場合があります。また一部のアイコンが表示されない現象も確認できています。開発する上で問題になるわけではないですが、もし気になる場合は Google Chrome など他のブラウザをお試しください。</p>
   <img src='https://github.com/yasslab/codespaces-railstutorial/blob/main/public/error_safari_webview_1.png?raw=true)' alt='Safari のエラー例１' />
   <br><br><br>
