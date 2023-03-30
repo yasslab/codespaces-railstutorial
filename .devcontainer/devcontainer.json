@@ -67,6 +67,9 @@
       }
     }
   },
+  "remoteEnv": {
+    "EDITOR": "vim"
+  },
   "portsAttributes": {
     "3000": {
       "label": "Application",
