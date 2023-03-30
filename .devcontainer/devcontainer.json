@@ -68,7 +68,7 @@
     }
   },
   "remoteEnv": {
-    "EDITOR": "vim"
+    "EDITOR": "code --wait"
   },
   "portsAttributes": {
     "3000": {
