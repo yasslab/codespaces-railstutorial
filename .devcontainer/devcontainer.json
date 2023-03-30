@@ -25,7 +25,7 @@
   "onCreateCommand": "gem install solargraph -N",
   //"onCreateCommand": "",
   //# => Solargraph gem not found. Run `gem install solargraph` or update your Gemfile.
-  "updateContentCommand": "bundle install",
+  "updateContentCommand": "bundle install --jobs=4",
   "postCreateCommand": "",
   "postAttachCommand": {
     "server": "rails server"
