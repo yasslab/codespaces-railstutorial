@@ -42,13 +42,12 @@ RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機�
 
 ## 使い方
 
-1. [Codespaces](https://github.com/codespaces) のページに行きます
-1. 画面右の [New codespace ボタン](https://github.com/codespaces/new)をクリックします
-   ![Codespaces Top](https://i.gyazo.com/ec618040bfe1a53c0458ab39503e661a.png)
-1. `Select a repository` をクリックし、`yasslab/codespaces-railstutorial` と入力します（他の項目は自動で補完されます）
-   ![Codespaces Top](https://i.gyazo.com/9d5e7d0f5be80486a27d62dd7d94c74d.png)
-1. 以下の画面になったら、右下の `Create codespace` ボタンを押します
-   ![Codespaces Top](https://i.gyazo.com/bb49c9993e4e355b287623c662e94ffc.png)
+1. 当ページの上部にある`Use this template`から`Create a new repository`をクリックします。 （`Use this template`が表示されていない場合はブラウザ幅を広げてみましょう。）
+   ![Codespaces Top](https://i.gyazo.com/a483f77e8299ea6b5dd75795c793fb8b.png)
+1. 移動したページで、`Repository name`は作成するアプリ名、`Descripsion`は必須ではありませんがアプリの内容などを入力し、`Private`を選択してリポジトリを非公開に設定します。最後に`Create repository from template`をクリックすると新しくリポジトリが作成されます。
+   ![Codespaces Top](https://i.gyazo.com/2e0188742504ec559109ba35a6b3714d.png)
+1. リポジトリにある`Code`から`Codespaces`タブにある`Create codespace on main`をクリックします。
+   ![Codespaces Top](https://i.gyazo.com/17c40d8c1453de7a5db9d7ed6b603db6.png)
 1. 環境構築が完了するのを待ちます（１〜２分ほど掛かります）
    ![Codespaces Top](https://i.gyazo.com/1dc81bccd2f416bc936cd60f348a6d7a.png)
 1. Railsチュートリアルのロゴ画像が表示されたら完成です!
