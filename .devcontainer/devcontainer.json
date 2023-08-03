@@ -40,32 +40,32 @@
     },
     "vscode": {
       "extensions": [
-	"GitHub.codespaces",
+        "GitHub.codespaces",
         "rebornix.Ruby",        // https://github.com/rubyide/vscode-ruby
-	"castwide.solargraph"   // https://github.com/castwide/vscode-solargraph
+        "castwide.solargraph"   // https://github.com/castwide/vscode-solargraph
       ],
       "settings": {
-	// Use Ctrl+Shift+P->Format to format.
-	//"ruby.useLanguageServer": true ,
-	//"ruby.format": "rubocop",
-	//"ruby.lint": { "rubocop": true },
-	//"ruby.intellisense": "rubyLocate",
-	"editor.tabSize": 2,
-	"editor.renderWhitespace": false,
-	"files.associations": { "*.erb": "erb" },
-	"emmet.includeLanguages": { "erb": "html" },
-	
-	// Settings for Solargraph
-	"solargraph.useBundler":  false,
-	"solargraph.diagnostics": false,
-	"solargraph.formatting":  true,
-	"solargraph.autoformat":  false,
-	"solargraph.definitions": true,
-	"solargraph.completion":  true,
-	"solargraph.references":  true,
-	"solargraph.symbols":     true,
-	"solargraph.rename":      true,
-	"solargraph.hover":       true
+        // Use Ctrl+Shift+P->Format to format.
+        //"ruby.useLanguageServer": true ,
+        //"ruby.format": "rubocop",
+        //"ruby.lint": { "rubocop": true },
+        //"ruby.intellisense": "rubyLocate",
+        "editor.tabSize": 2,
+        "editor.renderWhitespace": false,
+        "files.associations": { "*.erb": "erb" },
+        "emmet.includeLanguages": { "erb": "html" },
+
+        // Settings for Solargraph
+        "solargraph.useBundler":  false,
+        "solargraph.diagnostics": false,
+        "solargraph.formatting":  true,
+        "solargraph.autoformat":  false,
+        "solargraph.definitions": true,
+        "solargraph.completion":  true,
+        "solargraph.references":  true,
+        "solargraph.symbols":     true,
+        "solargraph.rename":      true,
+        "solargraph.hover":       true
       }
     }
   },
