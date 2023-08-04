@@ -35,24 +35,35 @@ RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機�
 ## 必要なもの
 
 - [Chrome](https://www.google.com/intl/ja/chrome/browser/) などのブラウザ（Chrome だとより快適に動作します）
-- [GitHub](https://github.co.jp/) のアカウント（もしまだであれば事前に準備をお願いします）
+- [GitHub](https://github.co.jp/) のアカウント（もしまだであれば事前に作成しておきましょう）
   [![GitHub Top](https://i.gyazo.com/b5bad7bc8318837b67def1643a52b955.png)](https://github.co.jp/)
 
 <br>
 
-## 使い方
+## Codespaces 使い方
 
-1. 当ページの上部にある`Use this template`から`Create a new repository`をクリックします。 （`Use this template`が表示されていない場合はブラウザ幅を広げてみましょう。）
-   ![Codespaces Top](https://i.gyazo.com/a483f77e8299ea6b5dd75795c793fb8b.png)
-1. 移動したページで、`Repository name`は作成するアプリ名、`Descripsion`は必須ではありませんがアプリの内容などを入力し、`Private`を選択してリポジトリを非公開に設定します。最後に`Create repository from template`をクリックすると新しくリポジトリが作成されます。
-   ![Codespaces Top](https://i.gyazo.com/2e0188742504ec559109ba35a6b3714d.png)
-1. リポジトリにある`Code`から`Codespaces`タブにある`Create codespace on main`をクリックします。
-   ![Codespaces Top](https://i.gyazo.com/17c40d8c1453de7a5db9d7ed6b603db6.png)
+以下の手順で、Codespaces を利用した環境構築が行えます 🛠
+
+1. 当ページの上部にある `Use this template` から `Create a new repository` をクリックします。もし `Use this template` が表示されない場合は、ブラウザの横幅を広げてみましょう。
+   ![本リポジトリからリポジトリを作成する場面](https://i.gyazo.com/a483f77e8299ea6b5dd75795c793fb8b.png)
+
+1. 移動したページで、`Repository name` に作成するアプリ名、`Description` にアプリの説明文を入力し、`Private` を選択してリポジトリを非公開に設定します。最後に `Create repository from template` をクリックすると、新しいリポジトリが作成されます。（以下は第1章の `hello_app` を作成する場合の例です)
+   ![テンプレートリポジトリの作成画面](https://i.gyazo.com/2e0188742504ec559109ba35a6b3714d.png)
+
+1. 作成したリポジトリに飛んだら、`Code` から `Codespaces` タブに移動し、`Create codespace on main` をクリックします。
+   ![テンプレートリポジトリから Codespaces へ](https://i.gyazo.com/17c40d8c1453de7a5db9d7ed6b603db6.png)
+
 1. 環境構築が完了するのを待ちます（１〜２分ほど掛かります）
-   ![Codespaces Top](https://i.gyazo.com/1dc81bccd2f416bc936cd60f348a6d7a.png)
+   ![Codespaces の立ち上げ中の画面](https://i.gyazo.com/1dc81bccd2f416bc936cd60f348a6d7a.png)
+
 1. Railsチュートリアルのロゴ画像が表示されたら完成です!
-   ![Codespaces Top](https://i.gyazo.com/b3af38fd1f8b2824791da9001a2bf6a0.png)
-1.  `rails new` や `Gemfile` の更新、`rails server` を立ち上がるところまで（難しいとされる「環境構築」が終わるところまで）が完了している状態なので、**第1章・第2章・第3章のコードを書くところから始められます!** 📝✨
+   ![Codespaces による環境構築の完了画面Top](https://i.gyazo.com/b3af38fd1f8b2824791da9001a2bf6a0.png)
+
+`rails new` や `Gemfile` の更新、`rails server` を立ち上がるところまで（難しいとされる「環境構築」が終わるところまで）が完了している状態なので、**第1章・第2章・第3章のコードを書くところから始められます!** 📝✨
+
+例えば第1章の場合は「[1.3.2 `rails server`](https://railstutorial.jp/chapters/beginning#sec-rails_server)」の途中から、すなわち `rails server` を立ち上げたところからスタートできます。
+
+> :memo: Codespaces によってココまで自動化されていますが、**1.3.2 以前の内容（何が自動化されたのか）を知ることも大事**です。このまま 1.3.2 以降に進めていただいてももちろん大丈夫ですが、どこかの段階で 1.3.2 以前の内容にも目を通しておくと、知識は広がります。
 
 <br>
 
