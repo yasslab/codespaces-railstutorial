@@ -13,25 +13,6 @@
 
 <br>
 
-## 拡張機能について
-より良い学習体験に繋げるため、本テンプレートには以下の VS Code 拡張機能がデフォルトで入っています。
-
-- [:octocat: rubyide/vscode-ruby](https://github.com/rubyide/vscode-ruby):
-  - Ruby コードのハイライトや折り畳みなどが可能になります
-- [:octocat: castwide/vscode-solargraph](https://github.com/castwide/vscode-solargraph):
-  - Ruby コードの定義元が調べられるコードジャンプ機能や、Ruby の型情報を使ったコード補完、公式ドキュメントの表示機能などが使えます（以下は[公式のデモ動画](https://github.com/castwide/vscode-solargraph#readme)です）
-  - ![Solargraph Official DEMO](https://i.gyazo.com/5fac6a81088d814a5b8354431239b03d.gif)
-
-RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機能はお好みで追加してください。本テンプレートでは必要最低限の拡張機能に留めています。
-
-- [:octocat: misogi/vscode-ruby-rubocop](https://github.com/misogi/vscode-ruby-rubocop)
-- [:octocat: ruby/vscode-rdbg](https://github.com/ruby/vscode-rdbg)
-- [:octocat: ruby-debug/ruby-debug-ide](https://github.com/ruby-debug/ruby-debug-ide)
-- [:octocat: Shopify/vscode-shopify-ruby](https://github.com/Shopify/vscode-shopify-ruby)
-- [:octocat: primer/github-vscode-theme](https://github.com/primer/github-vscode-theme)
-
-<br>
-
 ## 必要なもの
 
 - [Chrome](https://www.google.com/intl/ja/chrome/browser/) などのブラウザ（Chrome だとより快適に動作します）
@@ -64,6 +45,25 @@ RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機�
 例えば第1章の場合は「[1.3.2 `rails server`](https://railstutorial.jp/chapters/beginning#sec-rails_server)」の途中から、すなわち `rails server` を立ち上げたところからスタートできます。
 
 > :memo: Codespaces によってココまで自動化されていますが、**1.3.2 以前の内容（何が自動化されたのか）を知ることも大事**です。このまま 1.3.2 以降に進めていただいてももちろん大丈夫ですが、どこかの段階で 1.3.2 以前の内容にも目を通しておくと、知識は広がります。
+
+<br>
+
+## インストール済みの拡張機能について
+より良い学習体験に繋げるため、本テンプレートには以下の VS Code 拡張機能がデフォルトで入っています。
+
+- [:octocat: rubyide/vscode-ruby](https://github.com/rubyide/vscode-ruby):
+  - Ruby コードのハイライトや折り畳みなどが可能になります
+- [:octocat: castwide/vscode-solargraph](https://github.com/castwide/vscode-solargraph):
+  - Ruby コードの定義元が調べられるコードジャンプ機能や、Ruby の型情報を使ったコード補完、公式ドキュメントの表示機能などが使えます（以下は[公式のデモ動画](https://github.com/castwide/vscode-solargraph#readme)です）
+  - ![Solargraph Official DEMO](https://i.gyazo.com/5fac6a81088d814a5b8354431239b03d.gif)
+
+RuboCop によるコード整形、Ruby 公式デバッガーなどの拡張機能はお好みで追加してください。本テンプレートでは必要最低限の拡張機能に留めています。
+
+- [:octocat: misogi/vscode-ruby-rubocop](https://github.com/misogi/vscode-ruby-rubocop)
+- [:octocat: ruby/vscode-rdbg](https://github.com/ruby/vscode-rdbg)
+- [:octocat: ruby-debug/ruby-debug-ide](https://github.com/ruby-debug/ruby-debug-ide)
+- [:octocat: Shopify/vscode-shopify-ruby](https://github.com/Shopify/vscode-shopify-ruby)
+- [:octocat: primer/github-vscode-theme](https://github.com/primer/github-vscode-theme)
 
 <br>
 
