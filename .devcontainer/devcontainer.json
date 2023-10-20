@@ -41,8 +41,8 @@
     "vscode": {
       "extensions": [
         "GitHub.codespaces",
-        "rebornix.Ruby",        // https://github.com/rubyide/vscode-ruby
-        "castwide.solargraph"   // https://github.com/castwide/vscode-solargraph
+        "Shopify.ruby-lsp",   // https://github.com/Shopify/vscode-ruby-lsp
+        "castwide.solargraph" // https://github.com/castwide/vscode-solargraph
       ],
       "settings": {
         // Use Ctrl+Shift+P->Format to format.
