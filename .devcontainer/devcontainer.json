@@ -25,8 +25,8 @@
 
   "waitFor": "onCreateCommand",
   //"onCreateCommand": "",
-  "onCreateCommand": "gem install solargraph -v '0.50.0' -N",
-  //"onCreateCommand": "gem install solargraph -v '0.50.0' -N && gem install ruby-lsp -N",
+  //"onCreateCommand": "gem install solargraph -v '0.50.0' -N",
+  "onCreateCommand": "gem install solargraph -v '0.50.0' -N && gem install ruby-lsp -N",
   //# => Solargraph gem not found. Run `gem install solargraph` or update your Gemfile.
   "updateContentCommand": "bundle install",
   "postCreateCommand": "",
@@ -54,8 +54,8 @@
         //"ruby.intellisense": "rubyLocate",
         "editor.tabSize": 2,
         "editor.renderWhitespace": "none",
-        "files.associations": { "*.erb": "erb" },
-        "emmet.includeLanguages": { "erb": "html" },
+        "files.associations":     { "*.erb": "erb"  },
+        "emmet.includeLanguages": {   "erb": "html" },
 
         // Settings for Solargraph
         "solargraph.useBundler":  false,
