@@ -41,11 +41,12 @@
     "vscode": {
       "extensions": [
         "GitHub.codespaces",
-        "Shopify.ruby-lsp",   // https://github.com/Shopify/vscode-ruby-lsp
+	"rebornix.Ruby",      // https://github.com/rubyide/vscode-ruby
+        //"Shopify.ruby-lsp", // https://github.com/Shopify/vscode-ruby-lsp
         "castwide.solargraph" // https://github.com/castwide/vscode-solargraph
       ],
       "settings": {
-        // Use Ctrl+Shift+P->Format to format.
+        // General settings for Codespaces (VS Code)
         //"ruby.useLanguageServer": true ,
         //"ruby.format": "rubocop",
         //"ruby.lint": { "rubocop": true },
@@ -58,7 +59,7 @@
         // Settings for Solargraph
         "solargraph.useBundler":  false,
         "solargraph.diagnostics": false,
-        "solargraph.formatting":  true,
+        "solargraph.formatting":  true,  // Use Ctrl+Shift+P->Format to format
         "solargraph.autoformat":  false,
         "solargraph.definitions": true,
         "solargraph.completion":  true,
