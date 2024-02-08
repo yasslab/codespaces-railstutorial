@@ -51,7 +51,7 @@
 ## インストール済みの拡張機能について
 より良い学習体験に繋げるため、本テンプレートには以下の VS Code 拡張機能がデフォルトで入っています。
 
-- [:octocat: rubyide/vscode-ruby](https://github.com/rubyide/vscode-ruby):
+- [:octocat: Shopify/vscode-ruby-lsp](https://github.com/Shopify/vscode-ruby-lsp):
   - Ruby コードのハイライトや折り畳みなどが可能になります
 - [:octocat: castwide/vscode-solargraph](https://github.com/castwide/vscode-solargraph):
   - Ruby コードの定義元が調べられるコードジャンプ機能や、Ruby の型情報を使ったコード補完、公式ドキュメントの表示機能などが使えます（以下は[公式のデモ動画](https://github.com/castwide/vscode-solargraph#readme)です）

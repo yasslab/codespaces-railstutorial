@@ -42,8 +42,8 @@
     "vscode": {
       "extensions": [
         "GitHub.codespaces",
-	"rebornix.Ruby",    // https://github.com/rubyide/vscode-ruby
-        //"Shopify.ruby-lsp", // https://github.com/Shopify/vscode-ruby-lsp
+	//"rebornix.Ruby",    // https://github.com/rubyide/vscode-ruby
+        "Shopify.ruby-lsp",   // https://github.com/Shopify/vscode-ruby-lsp
         "castwide.solargraph" // https://github.com/castwide/vscode-solargraph
       ],
       "settings": {
@@ -58,6 +58,7 @@
         "emmet.includeLanguages": {   "erb": "html" },
 
         // Settings for Solargraph
+	// https://github.com/castwide/solargraph
         "solargraph.useBundler":  false,
         "solargraph.diagnostics": false,
         "solargraph.formatting":  true,  // Use Ctrl+Shift+P->Format to format
@@ -67,7 +68,12 @@
         "solargraph.references":  true,
         "solargraph.symbols":     true,
         "solargraph.rename":      true,
-        "solargraph.hover":       true
+        "solargraph.hover":       true,
+
+	// Settings for Ruby LSP
+	// https://github.com/Shopify/vscode-ruby-lsp
+	"rubyLsp.rubyVersionManager": "rvm",
+	"rubyLsp.formatter": "syntax_tree"
       }
     }
   },
