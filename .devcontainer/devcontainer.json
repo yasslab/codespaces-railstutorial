@@ -24,7 +24,8 @@
   //},
 
   "waitFor": "onCreateCommand",
-  "onCreateCommand": "gem install solargraph -v '0.50.0' -N && gem install ruby-lsp -N",
+  "onCreateCommand": "gem install solargraph -v '0.50.0' -N",
+  //"onCreateCommand": "gem install solargraph -v '0.50.0' -N && gem install ruby-lsp -N",
   //"onCreateCommand": "",
   //# => Solargraph gem not found. Run `gem install solargraph` or update your Gemfile.
   "updateContentCommand": "bundle install",
@@ -41,7 +42,7 @@
     "vscode": {
       "extensions": [
         "GitHub.codespaces",
-	"rebornix.Ruby",      // https://github.com/rubyide/vscode-ruby
+	//"rebornix.Ruby",    // https://github.com/rubyide/vscode-ruby
         //"Shopify.ruby-lsp", // https://github.com/Shopify/vscode-ruby-lsp
         "castwide.solargraph" // https://github.com/castwide/vscode-solargraph
       ],
