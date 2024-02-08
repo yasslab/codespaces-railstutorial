@@ -72,7 +72,7 @@
         // Settings for Ruby LSP
         // https://github.com/Shopify/vscode-ruby-lsp
         "rubyLsp.rubyVersionManager": "rvm",
-        "rubyLsp.formatter": "syntax_tree"
+        "rubyLsp.formatter": "none"
       }
     }
   },
