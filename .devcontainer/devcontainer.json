@@ -55,7 +55,11 @@
         //"ruby.lint": { "rubocop": true },
         //"ruby.intellisense": "rubyLocate",
         "editor.tabSize": 2,
+        "editor.formatOnSave": false,
         "editor.renderWhitespace": "none",
+        "[ruby]": {
+          "editor.defaultFormatter": "castwide.solargraph"
+        },
         "files.associations":     { "*.erb": "erb"  },
         "emmet.includeLanguages": {   "erb": "html" },
         
@@ -75,9 +79,10 @@
         // Settings for Ruby LSP
         // https://github.com/Shopify/vscode-ruby-lsp
         "rubyLsp.rubyVersionManager": "rvm",
-        "rubyLsp.formatter": "none",
+        "rubyLsp.formatter":          "none",
         "rubyLsp.enabledFeatures": {
-          "diagnostics": false
+          "diagnostics": false,
+          "formatting":  false
         }
       }
     }
