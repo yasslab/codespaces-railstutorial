@@ -42,8 +42,9 @@
     "vscode": {
       "extensions": [
         "GitHub.codespaces",
-        "Shopify.ruby-lsp",   // https://github.com/Shopify/vscode-ruby-lsp
-        "castwide.solargraph" // https://github.com/castwide/vscode-solargraph
+        //"Shopify.ruby-lsp",     // https://github.com/Shopify/vscode-ruby-lsp
+	"wingrunr21.vscode-ruby", // https://github.com/rubyide/vscode-ruby
+        "castwide.solargraph"     // https://github.com/castwide/vscode-solargraph
       ],
       "settings": {
         // General settings for Codespaces (VS Code)
@@ -67,12 +68,12 @@
         "solargraph.references":  true,
         "solargraph.symbols":     true,
         "solargraph.rename":      true,
-        "solargraph.hover":       true,
+        "solargraph.hover":       true
         
-        // Settings for Ruby LSP
+        // Settings for Ruby LSP (Experimental on Rails Tutorial)
         // https://github.com/Shopify/vscode-ruby-lsp
-        "rubyLsp.rubyVersionManager": "rvm",
-        "rubyLsp.formatter": "none"
+        //"rubyLsp.rubyVersionManager": "rvm",
+        //"rubyLsp.formatter": "none"
       }
     }
   },
