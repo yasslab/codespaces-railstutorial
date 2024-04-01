@@ -78,7 +78,7 @@
         
         // Settings for Ruby LSP
         // https://github.com/Shopify/vscode-ruby-lsp
-        "rubyLsp.rubyVersionManager": "rvm",
+        "rubyLsp.rubyVersionManager": "none",
         "rubyLsp.formatter":          "none",
         "rubyLsp.enabledFeatures": {
           "diagnostics": false,
