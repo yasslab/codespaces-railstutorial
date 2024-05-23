@@ -5,6 +5,8 @@
 - [:computer: GitHub Codespaces 対応！環境構築が不要に（解説動画付き） - note](https://note.com/yasslab/n/n427c56266295)
 - [:newspaper: GitHub Codespaces が全ユーザーに無料提供へ、毎月60時間分 - Publickey](https://www.publickey1.jp/blog/22/github_codespaces60jetbrainsjupyterlabide.html)
 
+<br>
+
 本テンプレートは、Railsチュートリアルの第1章・第2章・第3章の冒頭にある `rails new` および `Gemfile` の更新まで（難しいとされる「環境構築」まで）が完了している状態となっており、**rails server が立ち上げられる状態から学習をスタートできます** 📝✨
 
 ![Codespaces のサンプル画面](https://i.gyazo.com/b3af38fd1f8b2824791da9001a2bf6a0.png)
