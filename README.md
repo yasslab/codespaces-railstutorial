@@ -55,7 +55,8 @@
 
 - [:octocat: Shopify/vscode-ruby-lsp](https://github.com/Shopify/vscode-ruby-lsp):
   - Ruby コードを色分けして表示するハイライト機能や、コード補完機能などが使えます（以下は[公式のデモ動画](https://github.com/Shopify/vscode-ruby-lsp#readme)です）\
-  ![Ruby LSP Official DEMO](https://i.gyazo.com/71a5c5114b7836d942a5145ca58eadb9.gif)
+  ![Ruby LSP Official DEMO](https://i.gyazo.com/71a5c5114b7836d942a5145ca58eadb9.gif) \
+  参考記事: [Ruby LSPのコードナビゲーションで強化された主な機能 - TechRacho](https://techracho.bpsinc.jp/hachi8833/2024_07_29/143652)
 
 - [:octocat: castwide/vscode-solargraph](https://github.com/castwide/vscode-solargraph):
   - Ruby コードの定義元が調べられるコードジャンプ機能や、ドキュメント表示機能などが使えます（以下は[公式のデモ動画](https://github.com/castwide/vscode-solargraph#readme)です） \
