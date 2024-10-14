@@ -77,9 +77,11 @@
         "solargraph.hover":       true,
         
         // Settings for Ruby LSP
-        // https://github.com/Shopify/vscode-ruby-lsp
-        "rubyLsp.rubyVersionManager": "none",
-        "rubyLsp.formatter":          "none",
+        // https://github.com/Shopify/ruby-lsp
+        "rubyLsp.rubyVersionManager": {
+          "identifier": "none"
+        },
+        "rubyLsp.formatter": "none",
         "rubyLsp.enabledFeatures": {
           "diagnostics": false,
           "formatting":  false
