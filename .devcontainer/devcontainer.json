@@ -55,10 +55,13 @@
         //"ruby.lint": { "rubocop": true },
         //"ruby.intellisense": "rubyLocate",
         "editor.tabSize": 2,
-        "editor.formatOnSave": false,
+        "editor.formatOnSave": false, // Disable onSave to show diff edited by learners only
+        "editor.formatOnType": false, // Disable onType for the same reason above
+        "editor.insertSpaces": true,  // Use spaces, not tabs, to avoid errors for learners
         "editor.renderWhitespace": "none",
         "[ruby]": {
-          "editor.defaultFormatter": "castwide.solargraph"
+          "editor.defaultFormatter": "castwide.solargraph",
+          "editor.semanticHighlighting.enabled": true, // Enable semantic highlighting
         },
         "files.associations":     { "*.erb": "erb"  },
         "emmet.includeLanguages": {   "erb": "html" },
