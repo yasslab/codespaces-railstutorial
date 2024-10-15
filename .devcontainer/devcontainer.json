@@ -56,8 +56,8 @@
         //"ruby.intellisense": "rubyLocate",
         "editor.tabSize": 2,
         "editor.formatOnSave": false, // Disable onSave to show diff edited by learners only
-	"editor.formatOnType": false, // Disable onType for the same reason above
-	"editor.insertSpaces": true,  // Use spaces, not tabs, to avoid errors for learners
+        "editor.formatOnType": false, // Disable onType for the same reason above
+        "editor.insertSpaces": true,  // Use spaces, not tabs, to avoid errors for learners
         "editor.renderWhitespace": "none",
         "[ruby]": {
           "editor.defaultFormatter": "castwide.solargraph"
