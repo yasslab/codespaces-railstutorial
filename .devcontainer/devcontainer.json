@@ -60,7 +60,8 @@
         "editor.insertSpaces": true,  // Use spaces, not tabs, to avoid errors for learners
         "editor.renderWhitespace": "none",
         "[ruby]": {
-          "editor.defaultFormatter": "castwide.solargraph"
+          "editor.defaultFormatter": "castwide.solargraph",
+          "editor.semanticHighlighting.enabled": true, // Enable semantic highlighting
         },
         "files.associations":     { "*.erb": "erb"  },
         "emmet.includeLanguages": {   "erb": "html" },
