@@ -43,10 +43,10 @@
     "vscode": {
       "extensions": [
         "GitHub.codespaces",
-        "Shopify.ruby-lsp",   // https://github.com/Shopify/vscode-ruby-lsp
+        "Shopify.ruby-lsp",   // https://github.com/Shopify/ruby-lsp
         "castwide.solargraph" // https://github.com/castwide/vscode-solargraph
         //"rebornix.Ruby",    // https://github.com/rubyide/vscode-ruby (Deprecated)
-        
+
       ],
       "settings": {
         // General settings for Codespaces (VS Code)
@@ -65,7 +65,7 @@
         },
         "files.associations":     { "*.erb": "erb"  },
         "emmet.includeLanguages": {   "erb": "html" },
-        
+
         // Settings for Solargraph
         // https://github.com/castwide/solargraph
         "solargraph.useBundler":  false,
@@ -78,7 +78,7 @@
         "solargraph.symbols":     true,
         "solargraph.rename":      true,
         "solargraph.hover":       true,
-        
+
         // Settings for Ruby LSP
         // https://github.com/Shopify/ruby-lsp
         "rubyLsp.rubyVersionManager": {
