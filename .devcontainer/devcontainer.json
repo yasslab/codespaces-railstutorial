@@ -61,7 +61,7 @@
         "editor.renderWhitespace": "none",
         "[ruby]": {
           "editor.defaultFormatter": "castwide.solargraph",
-          "editor.semanticHighlighting.enabled": true, // Enable semantic highlighting
+          "editor.semanticHighlighting.enabled": true // Enable semantic highlighting
         },
         "files.associations":     { "*.erb": "erb"  },
         "emmet.includeLanguages": {   "erb": "html" },
