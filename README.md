@@ -53,7 +53,7 @@
 ## インストール済みの拡張機能について
 より良い学習体験に繋げるため、本テンプレートには以下の VS Code 拡張機能がデフォルトで入っています。
 
-- [:octocat: Shopify/vscode-ruby-lsp](https://github.com/Shopify/vscode-ruby-lsp):
+- [:octocat: Shopify/ruby-lsp](https://github.com/Shopify/ruby-lsp):
   - Ruby コードを色分けして表示するハイライト機能や、コード補完機能などが使えます（以下は[公式のデモ動画](https://github.com/Shopify/ruby-lsp/tree/main/vscode#features)です）\
   ![Ruby LSP Official DEMO](https://i.gyazo.com/71a5c5114b7836d942a5145ca58eadb9.gif) \
   参考記事: [Ruby LSPのコードナビゲーションで強化された主な機能 - TechRacho](https://techracho.bpsinc.jp/hachi8833/2024_07_29/143652)
