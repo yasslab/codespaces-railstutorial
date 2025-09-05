@@ -379,7 +379,7 @@ DEPENDENCIES
   webdrivers (= 5.2.0)
 
 RUBY VERSION
-   ruby 3.2.8p263
+   ruby 3.2.9p265
 
 BUNDLED WITH
    2.5.6
